@@ -1,20 +1,19 @@
 {
   "name": "angular-slugify",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Provides “slugification” for AngularJS in the form of a service, filter, and a directive.",
   "main": "angular-slugify.js",
   "directories": {
     "test": "test"
   },
   "scripts": {
-    "postinstall": "bower install",
-    "pretest": "npm install",
+    "pretest": "npm install && bower install",
     "test": "node node_modules/.bin/karma start test/karma.conf.js",
     "test-single-run": "node node_modules/.bin/karma start test/karma.conf.js --single-run"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/paulsmith/angular-slugify.git"
+    "url": "https://github.com/apaulau/angular-slugify.git"
   },
   "keywords": [
     "slug",
